@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    background-color: #ffe5d9;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Outfit;
+}
+.main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main img{
+    width: 100%;
+    border-radius: 8px;
+}
+.pageone h1{
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: cursive;
+}
+.pageone p{
+    line-height: 1.6;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.preptime{
+    margin-top: 20px;
+    background-color: #e9a4de2e;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.preptime ul {
+    padding: 10px;
+    border-radius: 8px;
+}
+.preptime li {
+    margin-bottom: 10px;
+}
+.pagetwo{
+    list-style-type: disc;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.pagetwo h2{
+    color: #b56576;
+    margin-bottom: 10px;
+}
+.pagetwo ul{
+    /* list-style-type: decimal; */
+    padding-left: 20px;
+}
+.pagetwo li{ 
+    margin-bottom: 10px;
+}
+.pagethree{
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.pagethree ul{
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+.pagethree li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.pagefour{
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
